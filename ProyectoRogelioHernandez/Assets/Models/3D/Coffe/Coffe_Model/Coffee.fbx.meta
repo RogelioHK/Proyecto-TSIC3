@@ -3,7 +3,22 @@ guid: e2c9c33450423eb458c95eff13092c13
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee
+    second: {fileID: 2100000, guid: 7987a78578752124db1a26d918cb963b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup
+    second: {fileID: 2100000, guid: 69a87e3698590944380e633eada89078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate
+    second: {fileID: 2100000, guid: 08e563998a127b94cb9c858e88a70609, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

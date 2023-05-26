@@ -3,7 +3,17 @@ guid: 3d092a5c96b15db4f9fb05681fc6af24
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ca2ee158a5e327d4eb2df99d03f99797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pizza
+    second: {fileID: 2100000, guid: a3e9babaf3327364cab07b1b7f91b55d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
