@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9502bf6e8a2fb264cb133e021b44d9bd, type: 3}
   m_Name: Coffe
   m_EditorClassIdentifier: 
-  foodName: Coffe
+  foodName: "Caf\xE9 cortado"
   foodImage: {fileID: 2800000, guid: 9be5c4641de5bb44f8d802f0f4c88401, type: 3}
-  foodDescription: "Caf\xE9 cortado"
+  foodDescription: "Caf\xE9 con leche deslactosada"
   foodPrice: $30.00
   foodModel: {fileID: 5616183320112420355, guid: 7b2a7479e840be34586db5e6f3017b00, type: 3}

@@ -19262,6 +19262,8 @@ struct CameraToggle_tF0778889A5C50882695DF4B9B8935F729E3C1612  : public MonoBeha
 public:
 	// Vuforia.VuforiaBehaviour CameraToggle::vuforiaBehaviour
 	VuforiaBehaviour_t99DECB1F904CDDBE832BC07BDD70583498F1C316 * ___vuforiaBehaviour_4;
+	// System.Boolean CameraToggle::isVuforiaInitialized
+	bool ___isVuforiaInitialized_5;
 
 public:
 	inline static int32_t get_offset_of_vuforiaBehaviour_4() { return static_cast<int32_t>(offsetof(CameraToggle_tF0778889A5C50882695DF4B9B8935F729E3C1612, ___vuforiaBehaviour_4)); }
@@ -19271,6 +19273,14 @@ public:
 	{
 		___vuforiaBehaviour_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___vuforiaBehaviour_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_isVuforiaInitialized_5() { return static_cast<int32_t>(offsetof(CameraToggle_tF0778889A5C50882695DF4B9B8935F729E3C1612, ___isVuforiaInitialized_5)); }
+	inline bool get_isVuforiaInitialized_5() const { return ___isVuforiaInitialized_5; }
+	inline bool* get_address_of_isVuforiaInitialized_5() { return &___isVuforiaInitialized_5; }
+	inline void set_isVuforiaInitialized_5(bool value)
+	{
+		___isVuforiaInitialized_5 = value;
 	}
 };
 
@@ -29228,9 +29238,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4261[1] =
 {
 	CameraDown_t740895C5873A74A2FDBBCA3233438D694D77FA55::get_offset_of_vuforiaBehaviour_4(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4262[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4262[2] = 
 {
 	CameraToggle_tF0778889A5C50882695DF4B9B8935F729E3C1612::get_offset_of_vuforiaBehaviour_4(),
+	CameraToggle_tF0778889A5C50882695DF4B9B8935F729E3C1612::get_offset_of_isVuforiaInitialized_5(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4263[3] = 
 {

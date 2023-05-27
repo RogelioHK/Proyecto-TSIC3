@@ -38,7 +38,7 @@ public class FoodButtonManager : MonoBehaviour
         var button = GetComponent<Button>();
         button.onClick.AddListener(GameManager.Instance.ARPositionMenu);
         button.onClick.AddListener(Create3DModel);
-        button.onClick.AddListener(() => { cameraUp[0].GetComponent<CameraToggle>().ToggleCamera(); });
+        button.onClick.AddListener(() => { cameraUp[0].GetComponent<CameraToggle>().ActiveCamera(); });
         
     }
 

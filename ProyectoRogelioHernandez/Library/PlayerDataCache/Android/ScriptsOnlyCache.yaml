@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CameraDown
     - CameraToggle
     - DataManager
     - Food
@@ -79,65 +78,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1536}
+    - Class: 114
       Script: {instanceID: 1538}
     - Class: 114
       Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 1542}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1718}
+      Script: {instanceID: 1746}
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1756}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2130}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2272}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2460}
-    - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2764}
     - Class: 114
       Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2768}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3468}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 3578}
+      Script: {instanceID: 3630}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3726}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4026}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4194}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4434}
+      Script: {instanceID: 4586}
     - Class: 114
-      Script: {instanceID: 4588}
-    - Class: 114
-      Script: {instanceID: 4734}
+      Script: {instanceID: 4732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

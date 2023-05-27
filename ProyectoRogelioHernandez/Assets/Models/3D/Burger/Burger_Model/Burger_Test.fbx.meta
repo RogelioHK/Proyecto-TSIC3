@@ -3,7 +3,52 @@ guid: d5a8d88cbafab7048a3610439a8d0958
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bun_lower
+    second: {fileID: 2100000, guid: 5e27cf3af89c0e64b9db13c325a0285c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bun_top
+    second: {fileID: 2100000, guid: 0ac28e68e9840c9439e8ea8e6e85bf81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: burger
+    second: {fileID: 2100000, guid: e43d0ac51531a4d49b3ab8249f215ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cheese
+    second: {fileID: 2100000, guid: dc9736a04923b7d4c8b54ff34d2df415, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cheese.001
+    second: {fileID: 2100000, guid: 316c337470f360d4abcb8517ef17b2ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lettuce2
+    second: {fileID: 2100000, guid: 38e0709b562d1004b9c074792eabdaff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lettuce2.001
+    second: {fileID: 2100000, guid: f4a06463e337dcf47aa65e158c748d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: onion
+    second: {fileID: 2100000, guid: d17ad57cad78c18489689873e9387ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pickle
+    second: {fileID: 2100000, guid: 1e3c0b5c5620ae94fb4522d23a04df39, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
