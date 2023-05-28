@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9502bf6e8a2fb264cb133e021b44d9bd, type: 3}
   m_Name: Pancake
   m_EditorClassIdentifier: 
-  foodName: Pancake
+  foodName: Hot cakes
   foodImage: {fileID: 0}
-  foodDescription: 
-  foodPrice: 
-  foodModel: {fileID: 0}
+  foodDescription: Hot cakes con mantequilla
+  foodPrice: $90.00
+  foodModel: {fileID: 338375773533928176, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}

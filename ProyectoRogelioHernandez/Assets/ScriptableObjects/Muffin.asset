@@ -16,4 +16,4 @@ MonoBehaviour:
   foodImage: {fileID: 0}
   foodDescription: 
   foodPrice: 
-  foodModel: {fileID: 0}
+  foodModel: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}

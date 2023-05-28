@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9502bf6e8a2fb264cb133e021b44d9bd, type: 3}
   m_Name: Bowl of pork
   m_EditorClassIdentifier: 
-  foodName: Bowl of pork
+  foodName: Estofado de cerdo
   foodImage: {fileID: 0}
   foodDescription: 
   foodPrice: 

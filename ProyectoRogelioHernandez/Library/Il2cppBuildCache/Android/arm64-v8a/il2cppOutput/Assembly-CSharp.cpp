@@ -2896,6 +2896,26 @@ public:
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___FoodMenu_5;
 	// UnityEngine.GameObject UIManager::ARPositionMenu
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___ARPositionMenu_6;
+	// UnityEngine.Vector3 UIManager::rmStartPosition0
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmStartPosition0_7;
+	// UnityEngine.Vector3 UIManager::rmStartPosition1
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmStartPosition1_8;
+	// UnityEngine.Vector3 UIManager::rmStartPosition2
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmStartPosition2_9;
+	// UnityEngine.Vector3 UIManager::rmStartPosition3
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmStartPosition3_10;
+	// UnityEngine.Vector3 UIManager::fmStartPosition0
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___fmStartPosition0_11;
+	// UnityEngine.Vector3 UIManager::rmEndPosition0
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmEndPosition0_12;
+	// UnityEngine.Vector3 UIManager::rmEndPosition1
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmEndPosition1_13;
+	// UnityEngine.Vector3 UIManager::rmEndPosition2
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmEndPosition2_14;
+	// UnityEngine.Vector3 UIManager::rmEndPosition3
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___rmEndPosition3_15;
+	// UnityEngine.Vector3 UIManager::fmEndPosition0
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___fmEndPosition0_16;
 
 public:
 	inline static int32_t get_offset_of_RestaurantMenu_4() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___RestaurantMenu_4)); }
@@ -2923,6 +2943,86 @@ public:
 	{
 		___ARPositionMenu_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___ARPositionMenu_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_rmStartPosition0_7() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmStartPosition0_7)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmStartPosition0_7() const { return ___rmStartPosition0_7; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmStartPosition0_7() { return &___rmStartPosition0_7; }
+	inline void set_rmStartPosition0_7(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmStartPosition0_7 = value;
+	}
+
+	inline static int32_t get_offset_of_rmStartPosition1_8() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmStartPosition1_8)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmStartPosition1_8() const { return ___rmStartPosition1_8; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmStartPosition1_8() { return &___rmStartPosition1_8; }
+	inline void set_rmStartPosition1_8(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmStartPosition1_8 = value;
+	}
+
+	inline static int32_t get_offset_of_rmStartPosition2_9() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmStartPosition2_9)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmStartPosition2_9() const { return ___rmStartPosition2_9; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmStartPosition2_9() { return &___rmStartPosition2_9; }
+	inline void set_rmStartPosition2_9(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmStartPosition2_9 = value;
+	}
+
+	inline static int32_t get_offset_of_rmStartPosition3_10() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmStartPosition3_10)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmStartPosition3_10() const { return ___rmStartPosition3_10; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmStartPosition3_10() { return &___rmStartPosition3_10; }
+	inline void set_rmStartPosition3_10(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmStartPosition3_10 = value;
+	}
+
+	inline static int32_t get_offset_of_fmStartPosition0_11() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___fmStartPosition0_11)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_fmStartPosition0_11() const { return ___fmStartPosition0_11; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_fmStartPosition0_11() { return &___fmStartPosition0_11; }
+	inline void set_fmStartPosition0_11(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___fmStartPosition0_11 = value;
+	}
+
+	inline static int32_t get_offset_of_rmEndPosition0_12() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmEndPosition0_12)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmEndPosition0_12() const { return ___rmEndPosition0_12; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmEndPosition0_12() { return &___rmEndPosition0_12; }
+	inline void set_rmEndPosition0_12(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmEndPosition0_12 = value;
+	}
+
+	inline static int32_t get_offset_of_rmEndPosition1_13() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmEndPosition1_13)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmEndPosition1_13() const { return ___rmEndPosition1_13; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmEndPosition1_13() { return &___rmEndPosition1_13; }
+	inline void set_rmEndPosition1_13(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmEndPosition1_13 = value;
+	}
+
+	inline static int32_t get_offset_of_rmEndPosition2_14() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmEndPosition2_14)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmEndPosition2_14() const { return ___rmEndPosition2_14; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmEndPosition2_14() { return &___rmEndPosition2_14; }
+	inline void set_rmEndPosition2_14(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmEndPosition2_14 = value;
+	}
+
+	inline static int32_t get_offset_of_rmEndPosition3_15() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___rmEndPosition3_15)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_rmEndPosition3_15() const { return ___rmEndPosition3_15; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_rmEndPosition3_15() { return &___rmEndPosition3_15; }
+	inline void set_rmEndPosition3_15(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___rmEndPosition3_15 = value;
+	}
+
+	inline static int32_t get_offset_of_fmEndPosition0_16() { return static_cast<int32_t>(offsetof(UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858, ___fmEndPosition0_16)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_fmEndPosition0_16() const { return ___fmEndPosition0_16; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_fmEndPosition0_16() { return &___fmEndPosition0_16; }
+	inline void set_fmEndPosition0_16(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___fmEndPosition0_16 = value;
 	}
 };
 
@@ -4852,8 +4952,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_add_onRestaurantMenu_m5DB8592250B62A7291E5FB0B985A1BC0CF3FD539 (GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1 * __this, Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * ___value0, const RuntimeMethod* method);
 // System.Void GameManager::add_onARPosition(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_add_onARPosition_mD58FD5FF30DB39850D4DC5C7A9E3FCF2C0C213DD (GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1 * __this, Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * ___value0, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method);
+// System.Void UIManager::ActivateRestMenu()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F09318105FC5ABABB56C3BF4E888080BF (UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858 * __this, const RuntimeMethod* method);
+// DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions> DG.Tweening.ShortcutExtensions::DOMove(UnityEngine.Transform,UnityEngine.Vector3,System.Single,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * ___target0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___endValue1, float ___duration2, bool ___snapping3, const RuntimeMethod* method);
 // DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions> DG.Tweening.ShortcutExtensions::DOScale(UnityEngine.Transform,UnityEngine.Vector3,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * ___target0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___endValue1, float ___duration2, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
@@ -6143,6 +6249,138 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Start_mAA4B371DC406146E84A9D88
 		Action__ctor_m07BE5EE8A629FBBA52AE6356D57A0D371BE2574B(L_5, __this, (intptr_t)((intptr_t)UIManager_ActivateARPMenu_mB31F50C581F2D490CC859BEC70EC523E409CB3CA_RuntimeMethod_var), /*hidden argument*/NULL);
 		NullCheck(L_4);
 		GameManager_add_onARPosition_mD58FD5FF30DB39850D4DC5C7A9E3FCF2C0C213DD(L_4, L_5, /*hidden argument*/NULL);
+		// rmStartPosition0 = RestaurantMenu.transform.GetChild(0).transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6 = __this->get_RestaurantMenu_4();
+		NullCheck(L_6);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_7;
+		L_7 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_8;
+		L_8 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_7, 0, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_9;
+		L_9 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10;
+		L_10 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_9, /*hidden argument*/NULL);
+		__this->set_rmStartPosition0_7(L_10);
+		// rmStartPosition1 = RestaurantMenu.transform.GetChild(1).transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11 = __this->get_RestaurantMenu_4();
+		NullCheck(L_11);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_12;
+		L_12 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_13;
+		L_13 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_12, 1, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
+		L_14 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_15;
+		L_15 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_14, /*hidden argument*/NULL);
+		__this->set_rmStartPosition1_8(L_15);
+		// rmStartPosition2 = RestaurantMenu.transform.GetChild(2).transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_16 = __this->get_RestaurantMenu_4();
+		NullCheck(L_16);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_17;
+		L_17 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_18;
+		L_18 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_17, 2, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_19;
+		L_19 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_20;
+		L_20 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_19, /*hidden argument*/NULL);
+		__this->set_rmStartPosition2_9(L_20);
+		// rmStartPosition3 = RestaurantMenu.transform.GetChild(3).transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_21 = __this->get_RestaurantMenu_4();
+		NullCheck(L_21);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_22;
+		L_22 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_23;
+		L_23 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_22, 3, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_24;
+		L_24 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_25;
+		L_25 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_24, /*hidden argument*/NULL);
+		__this->set_rmStartPosition3_10(L_25);
+		// fmStartPosition0 = FoodMenu.transform.GetChild(0).transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_26 = __this->get_FoodMenu_5();
+		NullCheck(L_26);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_27;
+		L_27 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_28;
+		L_28 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_27, 0, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_29;
+		L_29 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_28, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_30;
+		L_30 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_29, /*hidden argument*/NULL);
+		__this->set_fmStartPosition0_11(L_30);
+		// rmEndPosition0 = new Vector3(rmStartPosition0.x + 1280f, rmStartPosition0.y, rmStartPosition0.z);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_31 = __this->get_address_of_rmStartPosition0_7();
+		float L_32 = L_31->get_x_2();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_33 = __this->get_address_of_rmStartPosition0_7();
+		float L_34 = L_33->get_y_3();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_35 = __this->get_address_of_rmStartPosition0_7();
+		float L_36 = L_35->get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_37;
+		memset((&L_37), 0, sizeof(L_37));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_37), ((float)il2cpp_codegen_add((float)L_32, (float)(1280.0f))), L_34, L_36, /*hidden argument*/NULL);
+		__this->set_rmEndPosition0_12(L_37);
+		// rmEndPosition1 = new Vector3(rmStartPosition1.x + 1280f, rmStartPosition1.y, rmStartPosition1.z);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_38 = __this->get_address_of_rmStartPosition1_8();
+		float L_39 = L_38->get_x_2();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_40 = __this->get_address_of_rmStartPosition1_8();
+		float L_41 = L_40->get_y_3();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_42 = __this->get_address_of_rmStartPosition1_8();
+		float L_43 = L_42->get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_44), ((float)il2cpp_codegen_add((float)L_39, (float)(1280.0f))), L_41, L_43, /*hidden argument*/NULL);
+		__this->set_rmEndPosition1_13(L_44);
+		// rmEndPosition2 = new Vector3(rmStartPosition2.x + 1280f, rmStartPosition2.y, rmStartPosition2.z);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_45 = __this->get_address_of_rmStartPosition2_9();
+		float L_46 = L_45->get_x_2();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_47 = __this->get_address_of_rmStartPosition2_9();
+		float L_48 = L_47->get_y_3();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_49 = __this->get_address_of_rmStartPosition2_9();
+		float L_50 = L_49->get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_51;
+		memset((&L_51), 0, sizeof(L_51));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_51), ((float)il2cpp_codegen_add((float)L_46, (float)(1280.0f))), L_48, L_50, /*hidden argument*/NULL);
+		__this->set_rmEndPosition2_14(L_51);
+		// rmEndPosition3 = new Vector3(rmStartPosition3.x + 1200f, rmStartPosition3.y, rmStartPosition3.z);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_52 = __this->get_address_of_rmStartPosition3_10();
+		float L_53 = L_52->get_x_2();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_54 = __this->get_address_of_rmStartPosition3_10();
+		float L_55 = L_54->get_y_3();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_56 = __this->get_address_of_rmStartPosition3_10();
+		float L_57 = L_56->get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_58;
+		memset((&L_58), 0, sizeof(L_58));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_58), ((float)il2cpp_codegen_add((float)L_53, (float)(1200.0f))), L_55, L_57, /*hidden argument*/NULL);
+		__this->set_rmEndPosition3_15(L_58);
+		// fmEndPosition0 = new Vector3(fmStartPosition0.x, fmStartPosition0.y - 2260f, fmStartPosition0.z);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_59 = __this->get_address_of_fmStartPosition0_11();
+		float L_60 = L_59->get_x_2();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_61 = __this->get_address_of_fmStartPosition0_11();
+		float L_62 = L_61->get_y_3();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_63 = __this->get_address_of_fmStartPosition0_11();
+		float L_64 = L_63->get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_65;
+		memset((&L_65), 0, sizeof(L_65));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_65), L_60, ((float)il2cpp_codegen_subtract((float)L_62, (float)(2260.0f))), L_64, /*hidden argument*/NULL);
+		__this->set_fmEndPosition0_16(L_65);
+		// ActivateRestMenu();
+		UIManager_ActivateRestMenu_m92B0827F09318105FC5ABABB56C3BF4E888080BF(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6151,7 +6389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Start_mAA4B371DC406146E84A9D88
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F09318105FC5ABABB56C3BF4E888080BF (UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858 * __this, const RuntimeMethod* method)
 {
 	{
-		// RestaurantMenu.transform.GetChild(0).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		// RestaurantMenu.transform.GetChild(0).transform.DOMove(rmEndPosition0, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_RestaurantMenu_4();
 		NullCheck(L_0);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
@@ -6162,12 +6400,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		NullCheck(L_2);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_3;
 		L_3 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_2, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4;
-		memset((&L_4), 0, sizeof(L_4));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_4), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4 = __this->get_rmEndPosition0_12();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_5;
-		L_5 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_3, L_4, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(1).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		L_5 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_3, L_4, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(1).transform.DOMove(rmEndPosition1, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6 = __this->get_RestaurantMenu_4();
 		NullCheck(L_6);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_7;
@@ -6178,12 +6414,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		NullCheck(L_8);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_9;
 		L_9 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_8, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10;
-		memset((&L_10), 0, sizeof(L_10));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_10), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10 = __this->get_rmEndPosition1_13();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_11;
-		L_11 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_9, L_10, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(2).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		L_11 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_9, L_10, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(2).transform.DOMove(rmEndPosition2, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_12 = __this->get_RestaurantMenu_4();
 		NullCheck(L_12);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_13;
@@ -6194,12 +6428,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		NullCheck(L_14);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_15;
 		L_15 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_14, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_16), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16 = __this->get_rmEndPosition2_14();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_17;
-		L_17 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_15, L_16, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(3).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		L_17 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_15, L_16, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(3).transform.DOMove(rmEndPosition3, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18 = __this->get_RestaurantMenu_4();
 		NullCheck(L_18);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_19;
@@ -6210,12 +6442,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		NullCheck(L_20);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_21;
 		L_21 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_20, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_22), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22 = __this->get_rmEndPosition3_15();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_23;
-		L_23 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_21, L_22, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_23 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_21, L_22, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// FoodMenu.transform.GetChild(0).transform.DOMove(fmStartPosition0, 0.1f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_24 = __this->get_FoodMenu_5();
 		NullCheck(L_24);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_25;
@@ -6226,12 +6456,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		NullCheck(L_26);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_27;
 		L_27 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_26, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_28), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28 = __this->get_fmStartPosition0_11();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_29;
-		L_29 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_27, L_28, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_29 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_27, L_28, (0.100000001f), (bool)0, /*hidden argument*/NULL);
+		// FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(0,0,0), 0.1f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_30 = __this->get_FoodMenu_5();
 		NullCheck(L_30);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_31;
@@ -6246,15 +6474,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		memset((&L_34), 0, sizeof(L_34));
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_34), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_35;
-		L_35 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_33, L_34, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_36 = __this->get_FoodMenu_5();
+		L_35 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_33, L_34, (0.100000001f), /*hidden argument*/NULL);
+		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_36 = __this->get_ARPositionMenu_6();
 		NullCheck(L_36);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_37;
 		L_37 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_38;
-		L_38 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_37, 2, /*hidden argument*/NULL);
+		L_38 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_37, 0, /*hidden argument*/NULL);
 		NullCheck(L_38);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_39;
 		L_39 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_38, /*hidden argument*/NULL);
@@ -6262,23 +6490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 		memset((&L_40), 0, sizeof(L_40));
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_40), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_41;
-		L_41 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_39, L_40, (0.300000012f), /*hidden argument*/NULL);
-		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_42 = __this->get_ARPositionMenu_6();
-		NullCheck(L_42);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_43;
-		L_43 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_42, /*hidden argument*/NULL);
-		NullCheck(L_43);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_44;
-		L_44 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_43, 0, /*hidden argument*/NULL);
-		NullCheck(L_44);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_45;
-		L_45 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_44, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_46;
-		memset((&L_46), 0, sizeof(L_46));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_46), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_47;
-		L_47 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_45, L_46, (0.300000012f), /*hidden argument*/NULL);
+		L_41 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_39, L_40, (0.5f), /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6287,7 +6499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateRestMenu_m92B0827F0931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateFoodMenu_m41423E15E0E50B5CD88707EAAE93FEB688B98EEE (UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858 * __this, const RuntimeMethod* method)
 {
 	{
-		// FoodMenu.transform.GetChild(0).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		// FoodMenu.transform.GetChild(0).transform.DOMove(fmEndPosition0, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_FoodMenu_5();
 		NullCheck(L_0);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
@@ -6298,12 +6510,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateFoodMenu_m41423E15E0E5
 		NullCheck(L_2);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_3;
 		L_3 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_2, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4;
-		memset((&L_4), 0, sizeof(L_4));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_4), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4 = __this->get_fmEndPosition0_16();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_5;
-		L_5 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_3, L_4, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		L_5 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_3, L_4, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(1, 1, 0), 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6 = __this->get_FoodMenu_5();
 		NullCheck(L_6);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_7;
@@ -6316,81 +6526,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateFoodMenu_m41423E15E0E5
 		L_9 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_8, /*hidden argument*/NULL);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10;
 		memset((&L_10), 0, sizeof(L_10));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_10), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_10), (1.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_11;
-		L_11 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_9, L_10, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_12 = __this->get_FoodMenu_5();
+		L_11 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_9, L_10, (0.5f), /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(0).transform.DOMove(rmStartPosition0, 0.5f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_12 = __this->get_RestaurantMenu_4();
 		NullCheck(L_12);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_13;
 		L_13 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_12, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
-		L_14 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_13, 2, /*hidden argument*/NULL);
+		L_14 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_13, 0, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_15;
 		L_15 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_14, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_16), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16 = __this->get_rmStartPosition0_7();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_17;
-		L_17 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_15, L_16, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_17 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_15, L_16, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(1).transform.DOMove(rmStartPosition1, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18 = __this->get_RestaurantMenu_4();
 		NullCheck(L_18);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_19;
 		L_19 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_18, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_20;
-		L_20 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_19, 0, /*hidden argument*/NULL);
+		L_20 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_19, 1, /*hidden argument*/NULL);
 		NullCheck(L_20);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_21;
 		L_21 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_20, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_22), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22 = __this->get_rmStartPosition1_8();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_23;
-		L_23 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_21, L_22, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_23 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_21, L_22, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(2).transform.DOMove(rmStartPosition2, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_24 = __this->get_RestaurantMenu_4();
 		NullCheck(L_24);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_25;
 		L_25 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_26;
-		L_26 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_25, 1, /*hidden argument*/NULL);
+		L_26 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_25, 2, /*hidden argument*/NULL);
 		NullCheck(L_26);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_27;
 		L_27 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_26, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_28), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28 = __this->get_rmStartPosition2_9();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_29;
-		L_29 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_27, L_28, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(2).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_29 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_27, L_28, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// RestaurantMenu.transform.GetChild(3).transform.DOMove(rmStartPosition3, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_30 = __this->get_RestaurantMenu_4();
 		NullCheck(L_30);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_31;
 		L_31 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_30, /*hidden argument*/NULL);
 		NullCheck(L_31);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_32;
-		L_32 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_31, 2, /*hidden argument*/NULL);
+		L_32 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_31, 3, /*hidden argument*/NULL);
 		NullCheck(L_32);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_33;
 		L_33 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_32, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_34), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_34 = __this->get_rmStartPosition3_10();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_35;
-		L_35 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_33, L_34, (0.300000012f), /*hidden argument*/NULL);
-		// RestaurantMenu.transform.GetChild(3).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_36 = __this->get_RestaurantMenu_4();
+		L_35 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_33, L_34, (0.5f), (bool)0, /*hidden argument*/NULL);
+		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_36 = __this->get_ARPositionMenu_6();
 		NullCheck(L_36);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_37;
 		L_37 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_38;
-		L_38 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_37, 3, /*hidden argument*/NULL);
+		L_38 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_37, 0, /*hidden argument*/NULL);
 		NullCheck(L_38);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_39;
 		L_39 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_38, /*hidden argument*/NULL);
@@ -6398,23 +6600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateFoodMenu_m41423E15E0E5
 		memset((&L_40), 0, sizeof(L_40));
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_40), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_41;
-		L_41 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_39, L_40, (0.300000012f), /*hidden argument*/NULL);
-		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_42 = __this->get_ARPositionMenu_6();
-		NullCheck(L_42);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_43;
-		L_43 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_42, /*hidden argument*/NULL);
-		NullCheck(L_43);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_44;
-		L_44 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_43, 0, /*hidden argument*/NULL);
-		NullCheck(L_44);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_45;
-		L_45 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_44, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_46;
-		memset((&L_46), 0, sizeof(L_46));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_46), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_47;
-		L_47 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_45, L_46, (0.300000012f), /*hidden argument*/NULL);
+		L_41 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_39, L_40, (0.5f), /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6423,7 +6609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateFoodMenu_m41423E15E0E5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateARPMenu_mB31F50C581F2D490CC859BEC70EC523E409CB3CA (UIManager_t77C2B965B55C450F7226A05FE391FF12B5CE7858 * __this, const RuntimeMethod* method)
 {
 	{
-		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(1, 1, 1), 0.3f);
+		// ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(1,1,0), 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_ARPositionMenu_6();
 		NullCheck(L_0);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
@@ -6436,10 +6622,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateARPMenu_mB31F50C581F2D
 		L_3 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_2, /*hidden argument*/NULL);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4;
 		memset((&L_4), 0, sizeof(L_4));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_4), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_4), (1.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_5;
-		L_5 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_3, L_4, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
+		L_5 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_3, L_4, (0.5f), /*hidden argument*/NULL);
+		// FoodMenu.transform.GetChild(0).transform.DOMove(fmStartPosition0, 0.5f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6 = __this->get_FoodMenu_5();
 		NullCheck(L_6);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_7;
@@ -6450,43 +6636,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_ActivateARPMenu_mB31F50C581F2D
 		NullCheck(L_8);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_9;
 		L_9 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_8, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10;
-		memset((&L_10), 0, sizeof(L_10));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_10), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10 = __this->get_fmStartPosition0_11();
 		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_11;
-		L_11 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_9, L_10, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_12 = __this->get_FoodMenu_5();
-		NullCheck(L_12);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_13;
-		L_13 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_12, /*hidden argument*/NULL);
-		NullCheck(L_13);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
-		L_14 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_13, 1, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_15;
-		L_15 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_14, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_16), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_17;
-		L_17 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_15, L_16, (0.300000012f), /*hidden argument*/NULL);
-		// FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(0, 0, 0), 0.3f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18 = __this->get_FoodMenu_5();
-		NullCheck(L_18);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_19;
-		L_19 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_18, /*hidden argument*/NULL);
-		NullCheck(L_19);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_20;
-		L_20 = Transform_GetChild_mA7D94BEFF0144F76561D9B8FED61C5C939EC1F1C(L_19, 2, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_21;
-		L_21 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_20, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_22), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		TweenerCore_3_tEF2398744853D982DB885085C5B9A3AD4B0F84A4 * L_23;
-		L_23 = ShortcutExtensions_DOScale_m5A95C0F6E6F60A04BCC319FBF25133C678E30CD1(L_21, L_22, (0.300000012f), /*hidden argument*/NULL);
+		L_11 = ShortcutExtensions_DOMove_mB2D750908EA648BD0A77E2432C96B734809205FD(L_9, L_10, (0.5f), (bool)0, /*hidden argument*/NULL);
 		// }
 		return;
 	}

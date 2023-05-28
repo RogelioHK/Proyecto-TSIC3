@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodName: Cupcake
   foodImage: {fileID: 0}
-  foodDescription: 
-  foodPrice: 
-  foodModel: {fileID: 0}
+  foodDescription: Cupcake de chocolate con bombones
+  foodPrice: $20.00
+  foodModel: {fileID: 206748094654198045, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}

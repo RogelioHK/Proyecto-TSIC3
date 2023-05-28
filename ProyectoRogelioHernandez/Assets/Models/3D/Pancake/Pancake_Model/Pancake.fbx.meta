@@ -3,7 +3,12 @@ guid: b7852178c08460648bdeb4de3f8fe2fd
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pancake
+    second: {fileID: 2100000, guid: 7563a4bd6793d8843b4bde58bf045442, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

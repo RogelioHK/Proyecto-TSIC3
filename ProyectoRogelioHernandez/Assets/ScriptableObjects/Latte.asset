@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodName: Latte
   foodImage: {fileID: 0}
-  foodDescription: 
-  foodPrice: 
-  foodModel: {fileID: 0}
+  foodDescription: "Dos medidas de espresso, mucha leche vaporizada y una \xFAltima
+    y fina capa de espuma de leche por encima"
+  foodPrice: $70.00
+  foodModel: {fileID: 208976648438085321, guid: 455bed1fef8f0964398b18ebc17935a7, type: 3}

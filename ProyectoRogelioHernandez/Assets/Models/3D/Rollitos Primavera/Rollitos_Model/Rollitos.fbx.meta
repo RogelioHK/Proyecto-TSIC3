@@ -3,7 +3,27 @@ guid: 9881b9279efbce744a6efc975720a83b
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lumpia_Material.001
+    second: {fileID: 2100000, guid: f93271d46268cb64388567c133e7ab55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelain.001
+    second: {fileID: 2100000, guid: 1cfa9107483a2754e8d8fb482af9c03e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sauce.001
+    second: {fileID: 2100000, guid: 0f8a4f335b2a28344b676526206e1cb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sauce_Bits.001
+    second: {fileID: 2100000, guid: 11d51cf3c2a1d5e49a4d0f41a5241fc5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
