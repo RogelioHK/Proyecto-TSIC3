@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8954799839799635801}
   m_Layer: 0
   m_Name: Bowl
-  m_TagString: Model
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7441401729189727884}
-  m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 57.32615, y: 57.32615, z: 57.32615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.0011, z: 0}
+  m_LocalScale: {x: 6.24835, y: 6.24835, z: 6.24835}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

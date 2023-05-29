@@ -26,23 +26,21 @@ public class FoodButtonManager : MonoBehaviour
     {
         GameObject[] foundModels = GameObject.FindGameObjectsWithTag("Model");
         models.AddRange(foundModels);
-        GameObject[] cameraUp = GameObject.FindGameObjectsWithTag("CameraUp");
+        GameObject cameraUp = GameObject.FindGameObjectWithTag("CameraUp");
 
         transform.GetChild(0).GetComponent<Text>().text = foodName;
         Debug.Log(foodName);
         transform.GetChild(1).GetComponent<RawImage>().texture = foodImage;
         transform.GetChild(2).GetComponent<Text>().text = foodDescription;
         transform.GetChild(3).GetComponent<Text>().text = foodPrice;
-        //transform.GetChild(4).GetComponent<GameObject>().gameObject = foodModel;
 
         var button = GetComponent<Button>();
         button.onClick.AddListener(GameManager.Instance.ARPositionMenu);
-        button.onClick.AddListener(Create3DModel);
-        button.onClick.AddListener(() => { cameraUp[0].GetComponent<CameraToggle>().ActiveCamera(); });
-        
+        button.onClick.AddListener(Activate3DModel);
+        button.onClick.AddListener(() => { cameraUp.GetComponent<CameraToggle>().ActivateCamera(foodModel); });
     }
 
-    private void Create3DModel()
+    private void Activate3DModel()
     {
         // Desactivar todos los modelos existentes
         foreach (GameObject model in models)
@@ -55,7 +53,4 @@ public class FoodButtonManager : MonoBehaviour
             Debug.Log(model.name);
         }
     }
-
-
-
 }

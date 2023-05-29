@@ -1,11 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonController
     - CameraToggle
     - DataManager
     - Food
     - FoodButtonManager
     - GameManager
+    - Rotate
+    - ScrollbarController
     - UIManager
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
@@ -69,6 +72,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -78,63 +83,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
-    - Class: 114
       Script: {instanceID: 1538}
     - Class: 114
       Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 1746}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 1756}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2128}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 2270}
+      Script: {instanceID: 2132}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2274}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3238}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3198}
     - Class: 114
-      Script: {instanceID: 3468}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 3584}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 3638}
     - Class: 114
-      Script: {instanceID: 3800}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 4432}
+      Script: {instanceID: 4032}
     - Class: 114
-      Script: {instanceID: 4586}
+      Script: {instanceID: 4180}
     - Class: 114
-      Script: {instanceID: 4732}
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4440}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 4596}
+    - Class: 114
+      Script: {instanceID: 4742}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -262,6 +273,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: bae2813b85dee5f9ea6bf96b1abbb840
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorButtonController
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -298,10 +315,22 @@ ScriptsOnlyBuild:
     className: CameraDown
   - hash:
       serializedVersion: 2
+      Hash: b37fe8ee11b42cb34464ce09333f40ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonController
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 55210e48007bdcff550c922f3f0aa0c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotate
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -1750,6 +1779,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: bae2813b85dee5f9ea6bf96b1abbb840
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollbarController
+  - hash:
+      serializedVersion: 2
       Hash: 3e185bb71688771c53c327eb0ae51713
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2093,4 +2128,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/roghe/VR/Proyecto/Proyecto-TSIC3/ProyectoRogelioHernandez/test.apk
+  playerPath: C:/Users/roghe/VR/Proyecto/Proyecto-TSIC3/ProyectoRogelioHernandez/ProyectoRogelioHernandez.apk

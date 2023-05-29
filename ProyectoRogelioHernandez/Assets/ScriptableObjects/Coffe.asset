@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coffe
   m_EditorClassIdentifier: 
   foodName: "Caf\xE9 cortado"
-  foodImage: {fileID: 2800000, guid: 9be5c4641de5bb44f8d802f0f4c88401, type: 3}
+  foodImage: {fileID: 2800000, guid: cf57b173b5004634a8ebbc28a59480a4, type: 3}
   foodDescription: "Caf\xE9 con leche deslactosada"
   foodPrice: $30.00
   foodModel: {fileID: 5616183320112420355, guid: 7b2a7479e840be34586db5e6f3017b00, type: 3}

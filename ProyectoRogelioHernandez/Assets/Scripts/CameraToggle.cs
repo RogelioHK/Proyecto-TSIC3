@@ -4,55 +4,34 @@ using Vuforia;
 public class CameraToggle : MonoBehaviour
 {
     private VuforiaBehaviour vuforiaBehaviour;
-    private bool isVuforiaInitialized = false;
+    private GameObject backgroundObject;
+    private GameObject foodModel;
 
     private void Start()
     {
-        Debug.Log("Click on food menu");
         vuforiaBehaviour = FindObjectOfType<VuforiaBehaviour>();
-        vuforiaBehaviour.enabled = false;
+        backgroundObject = GameObject.Find("BlackBackground"); // Reemplaza "BlackBackground" con el nombre del objeto de fondo negro en tu escena
+        backgroundObject.SetActive(true);
     }
 
-    private void InitializeVuforia()
-    {
-        if (!isVuforiaInitialized)
-        {
-            VuforiaRuntime.Instance.InitVuforia();
-            isVuforiaInitialized = false;
-        }
-    }
-
-    public void ActiveCamera()
+    public void ActivateCamera(GameObject foodModel)
     {
         if (vuforiaBehaviour != null)
         {
-            // Limpiar recursos relacionados con la cámara y el rastreo
-            //VuforiaRenderer.Instance.Pause(true);
-            //VuforiaRenderer.Instance.ClearVideoBackgroundConfigurations();
-
-            // Reiniciar la configuración de Vuforia
-            //VuforiaRuntime.Instance.Deinit();
-            //InitializeVuforia();
-
-            // Reactivar Vuforia
-            vuforiaBehaviour.enabled = true;
             VuforiaRenderer.Instance.Pause(false);
-            
-            Debug.Log("AR activated");
+            backgroundObject.SetActive(false);
         }
+        this.foodModel = foodModel;
     }
 
-    public void DesactiveCamera()
+    public void DeactivateCamera()
     {
         if (vuforiaBehaviour != null)
         {
-            // Pausar la representación de la cámara y el rastreo
             VuforiaRenderer.Instance.Pause(true);
-            vuforiaBehaviour.enabled = false;
-            //VuforiaRenderer.Instance.ClearVideoBackgroundConfigurations();
-
-            
-            Debug.Log("AR deactivated");
+            backgroundObject.SetActive(true);
+            foodModel = GameObject.Find(foodModel.name);
+            foodModel.SetActive(false);
         }
     }
 }

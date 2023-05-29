@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Muffin
   m_EditorClassIdentifier: 
   foodName: Muffin
-  foodImage: {fileID: 0}
-  foodDescription: 
-  foodPrice: 
+  foodImage: {fileID: 2800000, guid: 09c48710a8c5af9479793d1e8435356a, type: 3}
+  foodDescription: "Hecho con una mezcla de harina, az\xFAcar, mantequilla, huevos
+    y leche"
+  foodPrice: $70.00
   foodModel: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}

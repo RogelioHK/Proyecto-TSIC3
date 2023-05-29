@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bowl of pork
   m_EditorClassIdentifier: 
   foodName: Estofado de cerdo
-  foodImage: {fileID: 0}
-  foodDescription: 
-  foodPrice: 
+  foodImage: {fileID: 2800000, guid: f244282111334924b941cb63c22dd1e4, type: 3}
+  foodDescription: "Taz\xF3n con carne de cerdo, frijoles, papas y zanahorias"
+  foodPrice: $60.00
   foodModel: {fileID: 7441401729189727884, guid: 9d7cfed04539b364db4ef58cbe94949e, type: 3}

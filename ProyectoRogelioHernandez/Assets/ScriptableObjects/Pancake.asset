@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pancake
   m_EditorClassIdentifier: 
   foodName: Hot cakes
-  foodImage: {fileID: 0}
+  foodImage: {fileID: 2800000, guid: b3e20f125eb5fca4ea8ba46ede3105e2, type: 3}
   foodDescription: Hot cakes con mantequilla
   foodPrice: $90.00
   foodModel: {fileID: 338375773533928176, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Pizza
   m_EditorClassIdentifier: 
   foodName: Pizza
-  foodImage: {fileID: 2800000, guid: 25172385d8084db42b567d9b618dc56b, type: 3}
-  foodDescription: Pizza grande de peperoni con albahaca
+  foodImage: {fileID: 2800000, guid: eef193bfabc119c46a3b137d8278c001, type: 3}
+  foodDescription: 'Pizza de Pepperoni con Albahaca: Una deliciosa pizza cubierta
+    con salsa de tomate, queso derretido y rodajas de pepperoni, un embutido de salami
+    picante.'
   foodPrice: $342.00
   foodModel: {fileID: 6995893996572454761, guid: edb20ad0897bf4c42a96a6408932c5dd, type: 3}

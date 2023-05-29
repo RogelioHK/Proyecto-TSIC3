@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using System.Xml.Linq;
 
 public class UIManager : MonoBehaviour{
     [SerializeField] private GameObject RestaurantMenu;
@@ -16,9 +15,6 @@ public class UIManager : MonoBehaviour{
     private Vector3 rmStartPosition3;
 
     private Vector3 fmStartPosition0;
-    //private Vector3 fmStartPosition1;
-
-    //private Vector3 ARStartPosition;
 
     private Vector3 rmEndPosition0;
     private Vector3 rmEndPosition1;
@@ -26,9 +22,6 @@ public class UIManager : MonoBehaviour{
     private Vector3 rmEndPosition3;
 
     private Vector3 fmEndPosition0;
-    //private Vector3 fmEndPosition1;
-    
-   // private Vector3 AREndPosition;
 
     // Start is called before the first frame update
     void Start(){
@@ -41,9 +34,6 @@ public class UIManager : MonoBehaviour{
         rmStartPosition3 = RestaurantMenu.transform.GetChild(3).transform.position;
 
         fmStartPosition0 = FoodMenu.transform.GetChild(0).transform.position;
-        //fmStartPosition1 = FoodMenu.transform.GetChild(1).transform.position;
-
-        //ARStartPosition = ARPositionMenu.transform.GetChild(0).transform.position;
 
         rmEndPosition0 = new Vector3(rmStartPosition0.x + 1280f, rmStartPosition0.y, rmStartPosition0.z);
         rmEndPosition1 = new Vector3(rmStartPosition1.x + 1280f, rmStartPosition1.y, rmStartPosition1.z);
@@ -51,9 +41,6 @@ public class UIManager : MonoBehaviour{
         rmEndPosition3 = new Vector3(rmStartPosition3.x + 1200f, rmStartPosition3.y, rmStartPosition3.z);
 
         fmEndPosition0 = new Vector3(fmStartPosition0.x, fmStartPosition0.y - 2260f, fmStartPosition0.z);
-        //fmEndPosition1 = new Vector3(fmStartPosition1.x, fmStartPosition1.y - 2260f, fmStartPosition1.z);
-        
-        //AREndPosition = new Vector3(ARStartPosition.x, ARStartPosition.y + 2260f, ARStartPosition.z);
 
         ActivateRestMenu();
     }
@@ -66,30 +53,36 @@ public class UIManager : MonoBehaviour{
         
         FoodMenu.transform.GetChild(0).transform.DOMove(fmStartPosition0, 0.1f);
         FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(0,0,0), 0.1f);
-        //FoodMenu.transform.GetChild(1).transform.DOMove(fmStartPosition1, 0.5f);
+        FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(0,0,0), 0.1f);
+        FoodMenu.transform.GetChild(3).transform.DOScale(new Vector3(0,0,0), 0.1f);
 
         ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+        ARPositionMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
     }
 
     private void ActivateFoodMenu(){
         FoodMenu.transform.GetChild(0).transform.DOMove(fmEndPosition0, 0.5f);
-        //FoodMenu.transform.GetChild(1).transform.DOMove(fmEndPosition1, 0.5f);
         FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(1, 1, 0), 0.5f);
+        FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(1, 1, 0), 0.5f);
+        FoodMenu.transform.GetChild(3).transform.DOScale(new Vector3(1, 1, 0), 0.5f);
+
 
         RestaurantMenu.transform.GetChild(0).transform.DOMove(rmStartPosition0, 0.5f);
         RestaurantMenu.transform.GetChild(1).transform.DOMove(rmStartPosition1, 0.5f);
         RestaurantMenu.transform.GetChild(2).transform.DOMove(rmStartPosition2, 0.5f);
         RestaurantMenu.transform.GetChild(3).transform.DOMove(rmStartPosition3, 0.5f);
 
-        //ARPositionMenu.transform.GetChild(0).transform.DOMove(ARStartPosition, 0.5f);
         ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+        ARPositionMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
     }
 
     private void ActivateARPMenu(){
-        //ARPositionMenu.transform.GetChild(0).transform.DOMove(AREndPosition, 0.5f);
         ARPositionMenu.transform.GetChild(0).transform.DOScale(new Vector3(1,1,0), 0.5f);
+        ARPositionMenu.transform.GetChild(1).transform.DOScale(new Vector3(1,1,0), 0.5f);
 
         FoodMenu.transform.GetChild(0).transform.DOMove(fmStartPosition0, 0.5f);
-        //FoodMenu.transform.GetChild(1).transform.DOMove(fmStartPosition1, 0.5f);
+        FoodMenu.transform.GetChild(1).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+        FoodMenu.transform.GetChild(2).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+        FoodMenu.transform.GetChild(3).transform.DOScale(new Vector3(0, 0, 0), 0.5f);
     }
 }

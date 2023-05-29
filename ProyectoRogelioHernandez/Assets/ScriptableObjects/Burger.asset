@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Burger
   m_EditorClassIdentifier: 
   foodName: Hamburguesa triple
-  foodImage: {fileID: 0}
+  foodImage: {fileID: 2800000, guid: fbaab09f436175a4a958bc0e5a587500, type: 3}
   foodDescription: Hamburguesa con tres carnes, queso americano, cebolla, pepinillos
     y lechuga
   foodPrice: $300.00

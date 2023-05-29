@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Rollos
   m_EditorClassIdentifier: 
   foodName: Rollitos primavera
-  foodImage: {fileID: 0}
+  foodImage: {fileID: 2800000, guid: 4981a2b5e3cf9e24ebae138f6b66a4ea, type: 3}
   foodDescription: Rollitos crujientes rellenos de una mezcla de verduras frescas
     cortadas en juliana, como zanahorias, repollo, pimientos y brotes de soja
-  foodPrice: 
+  foodPrice: $179.90
   foodModel: {fileID: 6875750435809347980, guid: 98b25d77511704c43b3e0133fd79d8ce, type: 3}
