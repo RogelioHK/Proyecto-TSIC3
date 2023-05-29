@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1151222027867529290}
+  - component: {fileID: 1710119734}
   m_Layer: 0
   m_Name: Pancake
-  m_TagString: Untagged
+  m_TagString: Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 338375773533928176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.046545707, y: 0.046545707, z: 0.046545707}
+  m_LocalScale: {x: 0.14561862, y: 0.14561862, z: 0.14561862}
   m_Children:
   - {fileID: 8537580679539884276}
   - {fileID: 5871946961991389111}
@@ -34,6 +35,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1710119734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338375773533928176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7129f6f1f4591844d9ed89c586099fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraAR: {fileID: 0}
 --- !u!1 &2845130195825243875
 GameObject:
   m_ObjectHideFlags: 0

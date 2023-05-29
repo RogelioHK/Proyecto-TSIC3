@@ -29,6 +29,7 @@ public class ScrollbarController : MonoBehaviour
         scrollbar.value = scrollbar.value <= 0.0f ? 0.0f : scrollbar.value -= scrollAmount;
         leftText.color = scrollbar.value == 0.0 ? lastItemColor : middleItemColor;
         rightText.color = scrollbar.value == 1.0f ? lastItemColor : middleItemColor;
+        Debug.Log("Left");
     }
 
     public void ScrollRight()
@@ -36,5 +37,6 @@ public class ScrollbarController : MonoBehaviour
         scrollbar.value = scrollbar.value >= 1.0f ? 1.0f : scrollbar.value += scrollAmount;
         leftText.color = scrollbar.value == 0.0 ? lastItemColor : middleItemColor;
         rightText.color = scrollbar.value == 1.0f ? lastItemColor : middleItemColor;
+        Debug.Log("Right");
     }
 }

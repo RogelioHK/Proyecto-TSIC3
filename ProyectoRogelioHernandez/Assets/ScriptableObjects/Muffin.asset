@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9502bf6e8a2fb264cb133e021b44d9bd, type: 3}
   m_Name: Muffin
   m_EditorClassIdentifier: 
-  foodName: Muffin
+  foodName: Bisquet
   foodImage: {fileID: 2800000, guid: 09c48710a8c5af9479793d1e8435356a, type: 3}
   foodDescription: "Hecho con una mezcla de harina, az\xFAcar, mantequilla, huevos
     y leche"

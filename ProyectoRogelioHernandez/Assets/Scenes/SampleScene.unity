@@ -473,7 +473,6 @@ GameObject:
   - component: {fileID: 117689395}
   - component: {fileID: 117689394}
   - component: {fileID: 117689393}
-  - component: {fileID: 117689396}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -544,19 +543,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 117689394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScrollbarController, Assembly-CSharp
-        m_MethodName: ScrollRight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &117689394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,19 +582,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117689391}
   m_CullTransparentMesh: 1
---- !u!114 &117689396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117689391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8df76aa389232b4fafb4b6987db5e23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollbar: {fileID: 2137825555}
 --- !u!1 &176523147
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,24 +647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796f73f9274bd1945b1d9083ae307472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &302988618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
-  m_PrefabInstance: {fileID: 1461893230}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &302988619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302988618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7129f6f1f4591844d9ed89c586099fbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraAR: {fileID: 0}
 --- !u!1001 &307748199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1027,29 +983,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pancake
       objectReference: {fileID: 0}
-    - target: {fileID: 338375773533928176, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 338375773533928176, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
-      propertyPath: m_TagString
-      value: Model
-      objectReference: {fileID: 0}
     - target: {fileID: 1151222027867529290, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1151222027867529290, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0011339
       objectReference: {fileID: 0}
     - target: {fileID: 1151222027867529290, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0008
       objectReference: {fileID: 0}
     - target: {fileID: 1151222027867529290, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.00070722
       objectReference: {fileID: 0}
     - target: {fileID: 1151222027867529290, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2994,15 +2942,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_Name
-      value: Muffin
-      objectReference: {fileID: 0}
-    - target: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 207074687408479128, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
-      propertyPath: m_TagString
-      value: Model
+      value: Bisquet
       objectReference: {fileID: 0}
     - target: {fileID: 690315148514378018, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_RootOrder
@@ -3010,15 +2950,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 690315148514378018, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0017765
       objectReference: {fileID: 0}
     - target: {fileID: 690315148514378018, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0147
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 690315148514378018, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0020358
       objectReference: {fileID: 0}
     - target: {fileID: 690315148514378018, guid: a014ec8818bfac64f9e0090a5fcc663d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3233,6 +3173,18 @@ PrefabInstance:
     - target: {fileID: 690551470753999783, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 690551470753999783, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 690551470753999783, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 690551470753999783, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 690551470753999783, guid: 6d36c6559c2123a47b0c7ffcf9e32b1d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3717,24 +3669,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1710119733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 338375773533928176, guid: 499b0f19b40763842ba64483fb3359a8, type: 3}
-  m_PrefabInstance: {fileID: 479617501}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1710119734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710119733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7129f6f1f4591844d9ed89c586099fbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraAR: {fileID: 0}
 --- !u!1 &1714909804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5146,19 +5080,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2091377364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScrollbarController, Assembly-CSharp
-        m_MethodName: ScrollLeft
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2091377364
 MonoBehaviour:
   m_ObjectHideFlags: 0

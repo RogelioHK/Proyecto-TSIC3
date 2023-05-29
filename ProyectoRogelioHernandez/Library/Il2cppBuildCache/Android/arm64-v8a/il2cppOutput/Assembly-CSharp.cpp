@@ -7424,6 +7424,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarController_Start_mFAE0312445608
 // System.Void ScrollbarController::ScrollLeft()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarController_ScrollLeft_mFF159633752BDBBF481ACA742093032AFD2F856F (ScrollbarController_tBEBDEC31D5DA3322827F8F2258C4D99A016A6BDB * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE24C5BE9B741FFFA87D2A951BFE7EA0440461CD);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
 	Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28 * G_B2_0 = NULL;
 	Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28 * G_B1_0 = NULL;
@@ -7541,6 +7548,9 @@ IL_0094:
 	{
 		NullCheck(G_B9_1);
 		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, G_B9_1, G_B9_0);
+		// Debug.Log("Left");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mF2A2ACB1738BA264EF07744AAF260BC5DDD2A11A(_stringLiteralAE24C5BE9B741FFFA87D2A951BFE7EA0440461CD, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -7548,6 +7558,13 @@ IL_0094:
 // System.Void ScrollbarController::ScrollRight()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarController_ScrollRight_mE469288DCF3D4802AFFC3678E28EFDAEEE38B7A7 (ScrollbarController_tBEBDEC31D5DA3322827F8F2258C4D99A016A6BDB * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A70DC8C790D0EFD53AE03FF23CB99D8B7A53CA);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
 	Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28 * G_B2_0 = NULL;
 	Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28 * G_B1_0 = NULL;
@@ -7665,6 +7682,9 @@ IL_0094:
 	{
 		NullCheck(G_B9_1);
 		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, G_B9_1, G_B9_0);
+		// Debug.Log("Right");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mF2A2ACB1738BA264EF07744AAF260BC5DDD2A11A(_stringLiteral16A70DC8C790D0EFD53AE03FF23CB99D8B7A53CA, /*hidden argument*/NULL);
 		// }
 		return;
 	}
